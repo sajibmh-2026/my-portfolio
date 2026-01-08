@@ -44,6 +44,9 @@
     color: #757575;
     margin-bottom: 30px;
 }
+.text-center{
+    text-align: center;
+}
 
 /* main style */
 header{
@@ -52,7 +55,7 @@ header{
     background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
     
     background-repeat: no-repeat;
-    background-position: top left , bottom right;
+    background-position: 23px 38px , bottom right;
 } 
 nav{
     width: 71%;
@@ -104,7 +107,7 @@ nav .menu a{
     max-width: 584px;
     vertical-align: middle;
 }
-#about{
+#about,#skills,#resume{
     padding-top: 130px;
 }
 #about .about-container{
@@ -128,9 +131,7 @@ nav .menu a{
 .about-info .info-card h4{
     font-size: 20px;
 }
-#skills{
-    padding-top: 130px;
-}
+
 #skills .skills-container{
     width: 71%;
     max-width: 1140px;
@@ -161,3 +162,79 @@ nav .menu a{
     line-height: 28px;
     color: #757575;
 }
+#resume .resunme-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resunme-container hr{
+    margin: 30px 0;
+}
+.resunme-container .section-title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume-card h3{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-card .card-text{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container h2{
+    font-size: 35px;
+    color:#181818;
+    margin-bottom: 20px;
+
+}
+ .footer-container .social p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.footer-container .icon img{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"], 
+.footer-container form textarea{
+    width: 461px;
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 5px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    color: #757575;
+}
+
